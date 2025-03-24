@@ -1,0 +1,3 @@
+name: SimpleWhitelist
+version: '1.0'
+main: com.github.zyypj.simplewhitelist.WhitelistPlugin

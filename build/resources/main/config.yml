@@ -1,0 +1,34 @@
+messages:
+  no_permission: "&4&lERRO! &cVocê não tem permissão para fazer isso!"
+  player_already_whitelisted: "&cJogador já está na whitelist."
+  player_added: "&aJogador adicionado à whitelist."
+  player_not_in_whitelist: "&cJogador não está na whitelist."
+  player_removed: "&aJogador removido da whitelist."
+  empty_whitelist: "&cA whitelist está vazia."
+  whitelist_list_header: "&bJogadores na whitelist:"
+  whitelist_enabled: "&aWhitelist ativada."
+  whitelist_disabled: "&aWhitelist desativada."
+
+whitelist:
+  enabled: false
+  players: []
+  joinMessage:
+    - "&6&lCrabMC"
+    - ""
+    - "&cO servidor está em manutenção!"
+    - "&fEntre em nosso &9discord &fapara mais informações:"
+    - "&9https://discord.crabmc.com"
+  kickMessage:
+    - "&6&lCrabMC"
+    - ""
+    - "&cO servidor entrou em modo manutenção!"
+    - "&fEntre em nosso &9discord &fapara mais informações:"
+    - "&9https://discord.crabmc.com"
+
+permissions:
+  add: "whitelist.add"
+  remove: "whitelist.remove"
+  list: "whitelist.list"
+  on: "whitelist.on"
+  off: "whitelist.off"
+  bypass: "whitelist.bypass"
